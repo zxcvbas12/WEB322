@@ -1,7 +1,7 @@
 {
-  "name": "assignment-3",
+  "name": "assignment-2",
   "version": "1.0.0",
-  "description": "assignment3",
+  "description": "assignment",
   "main": "server.js",
   "scripts": {
     "build": "echo \"No build specified\" && exit 1",
