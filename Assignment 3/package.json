@@ -1,22 +1,27 @@
 {
-  "name": "assignment-2",
+  "name": "assignment-3",
   "version": "1.0.0",
-  "description": "assignment2",
+  "description": "assignment3",
   "main": "server.js",
   "scripts": {
-    "test": "jihonam",
-    "start": "node server.js",
+    "build": "echo \"No build specified\" && exit 1",
+    "test": "echo \"No test specified\" && exit 1",
+    "start": "node index.js",
     "tw:build": "tailwindcss build -i ./public/css/tailwind.css -o ./public/css/main.css"
   },
   "repository": {
     "type": "git",
-    "url": "web322"
+    "url": "git+https://github.com/zxcvbas12/WEB333.git"
   },
   "keywords": [
     "web322"
   ],
-  "author": "Ji Ho Nam",
+  "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zxcvbas12/WEB333/issues"
+  },
+  "homepage": "https://github.com/zxcvbas12/WEB333#readme",
   "dependencies": {
     "@tailwindcss/typography": "^0.5.10",
     "daisyui": "^3.9.3",
